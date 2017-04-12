@@ -7,7 +7,7 @@ Esta instrução executa a classe RestExample.java
 
 ```
 public static void main(String[] args) throws IOException {
-        //Note that the cache name is "diego" and the key is key1
+        //Note que o nome do cache é "cacheCelepar" e a chave será key+i (este i vem do for logo abaixo)
         String serverUrl = "http://10.15.96.229:8080/rest/cacheCelepar/key";
         RestExample restExample = new RestExample();
         //Loading keys/values on cache
